@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #ff512f, #dd2476);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+.header h1 {
+  margin: 0 0 10px;
+}
+.header .subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.buttons {
+  margin-top: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  margin: 5px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn.register {
+  background: #fff;
+  color: #dd2476;
+}
+.btn.register:hover {
+  background: #f0f0f0;
+}
+.btn.login {
+  background: #ffcc00;
+  color: #333;
+}
+.btn.login:hover {
+  background: #ffdb4d;
+}
+
+/* Sections */
+section {
+  margin: 30px 0;
+}
+h2 {
+  color: #dd2476;
+  margin-bottom: 15px;
+}
+ul, ol {
+  padding-left: 20px;
+}
+.tip {
+  background: #fff3cd;
+  padding: 10px;
+  border-left: 4px solid #ffcc00;
+  margin-top: 10px;
+}
+
+/* Table */
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+.table th, .table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+.table th {
+  background: #dd2476;
+  color: #fff;
+  text-align: left;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.cta p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  font-size: 0.9rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .header .subtitle {
+    font-size: 1rem;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
